@@ -19,6 +19,11 @@ dotnet build
 
 This should install it in your Stream Deck console.
 
+## TODO
+
+The action currently does not stop reading if it becomes hidden. 
+This whole lifecycle management should be done better. 
+
 ## References
 This is based on the [StreamDeckToolkit][Dotnet Template] .NET template for creating Stream Deck plugins.
 
